@@ -3732,6 +3732,18 @@ let
     meta.homepage = "https://github.com/wellle/targets.vim/";
   };
 
+  taskwiki = buildVimPluginFrom2Nix {
+    pname = "taskwiki";
+    version = "2020-12-30";
+    src = fetchFromGitHub {
+      owner = "tools-life";
+      repo = "taskwiki";
+      rev = "b280e28ac8076a82d084a0b0be96c4edf6592636";
+      sha256 = "0ylm9y4a3lrk5krgnz6lsvznzzj33la8ssqblq71r473balrhbyx";
+    };
+    meta.homepage = "https://github.com/tools-life/taskwiki/";
+  };
+
   tcomment_vim = buildVimPluginFrom2Nix {
     pname = "tcomment_vim";
     version = "2020-11-18";
