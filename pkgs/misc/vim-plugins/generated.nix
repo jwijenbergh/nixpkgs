@@ -2772,12 +2772,12 @@ let
 
   nvim-lsputils = buildVimPluginFrom2Nix {
     pname = "nvim-lsputils";
-    version = "2020-12-29";
+    version = "2020-12-31";
     src = fetchFromGitHub {
       owner = "RishabhRD";
       repo = "nvim-lsputils";
-      rev = "99f2d53e0c1d0bca83c98f4a3273d3d99d3cc14c";
-      sha256 = "0d1jj96x96ln6l8zz70wj8qgjdx3y9327gv97yl5vap1jdqx44sn";
+      rev = "58cd320e966c2aed5a5ebf8544a310a2341ccd5c";
+      sha256 = "1iv5gxj2vx3w3nx335kn0pnin4ij9xwpid909rp9hlh48vkardjp";
     };
     meta.homepage = "https://github.com/RishabhRD/nvim-lsputils/";
   };
@@ -2808,12 +2808,12 @@ let
 
   nvim-treesitter = buildVimPluginFrom2Nix {
     pname = "nvim-treesitter";
-    version = "2020-12-30";
+    version = "2020-12-31";
     src = fetchFromGitHub {
       owner = "nvim-treesitter";
       repo = "nvim-treesitter";
-      rev = "57ba843d184e30339cff76869a0f5e60a467a047";
-      sha256 = "0g2by0qq888dxf4z32gbwj084v1vpr93zxcw26pcd2s3rpp7dnvq";
+      rev = "91578cc2c8d6403c94e8d0d06a4b3f518ad68530";
+      sha256 = "0bap5gkwg2wblhl8ag281nzs761kf9dhs5sgfx6r52s4c2n7nxk6";
     };
     meta.homepage = "https://github.com/nvim-treesitter/nvim-treesitter/";
   };
@@ -2824,8 +2824,8 @@ let
     src = fetchFromGitHub {
       owner = "romgrk";
       repo = "nvim-treesitter-context";
-      rev = "8b124a6ec7a0fd7a3ab01eedc1de6a8f67345abf";
-      sha256 = "0a8vfqxyyl2rqcv592zziq7vf9024ra0xy42sjkrga65m2aa4ql9";
+      rev = "a7773cc3c581fa43cf0b59693ecdc6fc4e79e748";
+      sha256 = "1mxm6b00jmnci4yvd3bs9njf73bjbdwcn10l5bw9180a511aggv1";
     };
     meta.homepage = "https://github.com/romgrk/nvim-treesitter-context/";
   };
@@ -7411,12 +7411,12 @@ let
 
   vim-vsnip = buildVimPluginFrom2Nix {
     pname = "vim-vsnip";
-    version = "2020-12-19";
+    version = "2020-12-31";
     src = fetchFromGitHub {
       owner = "hrsh7th";
       repo = "vim-vsnip";
-      rev = "98d98c6e9b7f9706285aea6a93118acccfaad092";
-      sha256 = "16zxgqzlgra2c64qv998ipgjgwnq324rcwrkv3mrish8fyb7m8na";
+      rev = "c62a86d46236e74d5059de0ba987a79a9e6be0c9";
+      sha256 = "1iw44y0b1v9677cw65idj3f458ski2mp9d0s66f48i92gcbpk90k";
     };
     meta.homepage = "https://github.com/hrsh7th/vim-vsnip/";
   };
