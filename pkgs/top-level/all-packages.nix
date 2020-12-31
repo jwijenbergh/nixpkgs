@@ -2600,6 +2600,8 @@ in
 
   shell-hist = callPackage ../tools/misc/shell-hist { };
 
+  shellhub-agent = callPackage ../applications/networking/shellhub-agent { };
+
   simdjson = callPackage ../development/libraries/simdjson { };
 
   simg2img = callPackage ../tools/filesystems/simg2img { };
@@ -18159,6 +18161,8 @@ in
 
   dstat = callPackage ../os-specific/linux/dstat { };
 
+  erofs-utils = callPackage ../os-specific/linux/erofs-utils { };
+
   # unstable until the first 1.x release
   fscrypt-experimental = callPackage ../os-specific/linux/fscrypt { };
   fscryptctl-experimental = callPackage ../os-specific/linux/fscryptctl { };
@@ -25675,6 +25679,10 @@ in
   chiaki = libsForQt5.callPackage ../games/chiaki { };
 
   chocolateDoom = callPackage ../games/chocolate-doom { };
+
+  clonehero-unwrapped = pkgs.callPackage ../games/clonehero { };
+
+  clonehero = pkgs.callPackage ../games/clonehero/fhs-wrapper.nix { };
 
   crispyDoom = callPackage ../games/crispy-doom { };
 

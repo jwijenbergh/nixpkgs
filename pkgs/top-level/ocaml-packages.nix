@@ -429,6 +429,8 @@ let
 
     irmin = callPackage ../development/ocaml-modules/irmin { };
 
+    irmin-chunk = callPackage ../development/ocaml-modules/irmin/chunk.nix { };
+
     irmin-fs = callPackage ../development/ocaml-modules/irmin/fs.nix { };
 
     irmin-git = callPackage ../development/ocaml-modules/irmin/git.nix { };
@@ -578,6 +580,8 @@ let
     mirage-block-combinators = callPackage ../development/ocaml-modules/mirage-block/combinators.nix { };
 
     mirage-block-ramdisk = callPackage ../development/ocaml-modules/mirage-block-ramdisk { };
+
+    mirage-block-unix = callPackage ../development/ocaml-modules/mirage-block-unix { };
 
     mirage-bootvar-unix = callPackage ../development/ocaml-modules/mirage-bootvar-unix { };
 
